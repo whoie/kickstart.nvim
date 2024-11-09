@@ -3,6 +3,9 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  -- vim navigator between panes
+  { 'christoomey/vim-tmux-navigator' },
+
   -- zig language plugin
   { 'ziglang/zig.vim' },
 
